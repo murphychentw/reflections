@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a repository, git creates metadata for files under the current working directory.
+
+Need to initialize a repository in order to track file change histories.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is different from the working directory in that you can't change the contents of the file directly.
+Staging area is different from the repository in that the files have not been tracked yet.
+
+It makes commiting a logical unit acrossing multiple files easier.
+
